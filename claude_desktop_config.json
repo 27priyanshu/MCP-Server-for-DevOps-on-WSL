@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "LeaveManagement": {
+      "command": "C:\\25_Codes\\mcp\\venv\\Scripts\\python.exe",
+      "args": ["C:\\25_Codes\\mcp\\mcp_server.py"]
+    },
+    "wsl-devops-management": {
+  "command": "wsl.exe",
+  "args": [
+    "-d", "Ubuntu",
+    "--cd", "/mnt/c/25_Codes/mcp",
+    "bash", "-c",
+    "source mcp-env/bin/activate && python3 devops_server.py"
+  ]
+}
+
+  }
+}
